@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <form action="http:/127.0.0.1:3002/index.html">
+
+        <fieldset>
+            <legend>Name and Address</legend>
+
+            <div>
+                <label for="CiviCRM"> <b>Do you use CiviCRM?</b></label>
+                <div></div>
+                <input type="radio" name="CiviCRM" id="Yes">
+                <label for="Yes">Yes</label>
+                <input type="radio" name="CiviCRM" id="No">
+                <label for="No">No</label>
+                <span>(<a href="">unselect</a>)
+            </div>
+
+            <div>
+                <label ><b>How long have you brbeen using CiviCRM?</b></label>
+                <div></div>
+                <select>
+                    <option >--select--</option>
+                    <option >1 Year</option>
+                    <option >More</option>
+                </select>
+            </div>
+
+            <div>
+                <label ><b>Which CMS do you use?</b></label>
+                <div></div>
+                <select>
+                    <option > --select--</option>
+                </select>
+            </div>
+
+            <div>
+                <label ><b>Yout Skill set</b></label>
+                <div></div>
+                <select>
+                    <option> --select--</option>
+                </select>
+            </div>
+
+            <div>
+                <label ><b>Email *</b></label>
+                <div></div>
+                <input type="email" required />
+            </div>
+            
+            <div>
+                <label for=""><b>First Name *</b></label>
+                <div></div>
+                <input name="First Name " required>
+            </div>
+
+            <div>
+                <label for=""><b>Last Name *</b></label>
+                <div></div>
+                <input name="Last Name" required>
+                <p>First and last name will be shared with other visitors to the site.</p>
+            </div>
+
+            <div>
+                <label for=""><b>Street Address (Home)</b></label>
+                <div></div>
+                <input type="" name="Street Addres">
+            </div>
+
+            <div>
+                <label for="City"><b>City (Home)</b></label>
+                <div></div>
+                <input  name="City">
+            </div>
+
+            <div>
+                <label for="Postal Code"><b>Postal Code (Home)</b></label>
+                <div></div>
+                <input name="Postal Code" >
+            </div>
+
+            <div>
+                <label><b>Country (Home)</b></label>
+                <div></div>
+                <select>
+                    <option value="">US</option>
+                </select>
+            </div>
+
+            <div>
+                <label><b>State (Home)</b></label>
+                <div></div>
+                <select>
+                    <option value=""> --select--</option>
+                </select>
+                <p>Your state/province and country of residence will be shared with others so folks can find others in their community.</p>
+            </div>
+
+        </fieldset>
+
+            <div>
+                <input type="submit" value="Save"> 
+                <input type="reset" value="Cancel">
+            </div>
+
+
+
+
+
+
+
+
+
+    </form>
+</body>
+</html>
